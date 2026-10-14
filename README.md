@@ -89,3 +89,8 @@ sudo sed -i '' '/http-echo.k8s-server.local/d' /etc/hosts
 * Ingress has no address or curl hangs: make sure `minikube tunnel` is running and /etc/hosts points to 127.0.0.1
 * Install fails with an admission webhook error: wait a few seconds for ingress-nginx to finish starting and retry
 * Port 80/443 already in use on the Mac: stop the local service that uses them, then restart the tunnel
+
+
+
+<img width="1358" height="1273" alt="image" src="https://github.com/user-attachments/assets/34c0b1b5-1021-4cd2-ad58-24ee3289172e" />
+
